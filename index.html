@@ -52,10 +52,10 @@
                     
 
                   <ul class="menu menu-horizontal px-1">
-                    <li><a class="2-xl font-medium">Home</a></li>
-                    <li><a class="2-xl font-medium">About Us</a></li>
-                    <li><a class="2-xl font-medium">Shop</a></li>
-                    <li><a class="2-xl font-medium">All Fruits</a></li>
+                    <li><a href="#home"     class="2-xl font-medium">Home</a></li>
+                    <li><a href="#aboutus"  class="2-xl font-medium">About Us</a></li>
+                    <li><a href="#purchase" class="2-xl font-medium">Shop</a></li>
+                    <li><a href="#fruits"   class="2-xl font-medium">All Fruits</a></li>
                   </ul>
                   <div class=" flex items-center justify-end gap-2 ml-40">
                     <img src="./images/logo.png" alt="">
@@ -79,10 +79,10 @@
                             </svg>
                     </label>
                     <ul tabindex="0"  class="menu menu-sm dropdown-content z-10 p-2  bg-slate-300 shadow rounded-box w-40 absolute right-0 ">
-                        <li><a class="my-1">Home</a></li>
-                        <li><a class="my-1">About Us</a></li>
-                        <li><a class="my-1">Shop</a></li>
-                        <li><a class="my-1">All Fruits</a></li>
+                        <li><a href="#home"     class="my-1">Home</a></li>
+                        <li><a href="#aboutus"  class="my-1">About Us</a></li>
+                        <li><a href="#purchase" class="my-1">Shop</a></li>
+                        <li><a href="#fruits"   class="my-1">All Fruits</a></li>
 
                     </ul>
                     
@@ -95,7 +95,7 @@
         </nav>
         <!-- Banner section -->
         <!-- Slider or carousel -->
-        <div class="max-w-screen-xl mx-auto ">
+        <div class="max-w-screen-xl mx-auto " id="home">
             <div class="carousel max-w-full h-screen">
                 <div id="slide1" class="carousel-item relative w-full " style=" background:linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(./images/banner1.png);">
                     <div class="carousel-overlay bg-opacity-60"></div>
@@ -166,7 +166,7 @@
 
         <!-- Varities of fruits -->
 
-        <section class=" md:max-w-3xl lg:max-w-5xl mx-auto bg-white shadow-md relative hidden md:block   md:-top-24 ">
+        <section class=" md:max-w-2xl lg:max-w-5xl mx-auto bg-white shadow-md relative hidden md:block   md:-top-24 " id="fruits">
             <div class=" flex items-center justify-evenly">
                 <div class=" flex flex-col items-center justify-center text-center py-10">
                     <figure>
@@ -210,10 +210,10 @@
         <!-- Deal of the Day  Section -->
         <section class="max-w-screen-xl mx-auto ">
             <!-- First section -->
-            <div class="md:flex md:items-center ">
+            <div class="md:flex md:flex-col md:space-y-3 lg:flex-row md:items-center lg:items-center lg:justify-center ">
                 <div class=" flex flex-col text-center md:flex-col md:text-left mx-10 flex-1 mt-10">
-                    <h1 class="text-3xl font-bold mb-3">Deal of the day</h1>
-                    <P class="">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</P>
+                    <h1 class="text-3xl font-bold mb-3 md:text-center lg:text-left">Deal of the day</h1>
+                    <P class=" md:text-center lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</P>
 
                 </div>
                 <!-- Countdown section -->
@@ -257,7 +257,7 @@
                 </div>
             </div>
             <!-- Second section -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center lg:justify-items-center gap-4 m-7 mt-10 md:mt-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center lg:justify-items-center gap-4 m-7 mt-10 md:mt-14" id="purchase">
                 <!-- Card one -->
                 <div class="card bg-base-100  border-2 border-gray-400 rounded-lg">
                     <figure class="px-10 pt-10">
@@ -452,7 +452,7 @@
         <!-- Deal of the section ends -->
 
         <!-- Meet the team section -->
-        <section class="max-w-screen-xl mx-auto mb-20">
+        <section class="max-w-screen-xl mx-auto mb-20" id="aboutus">
             <div class="hero min-h-screen " style="background-image: url(./images/banner1.png);">
                 <div class="hero-overlay bg-opacity-80"></div>
                 <div class="hero-content text-center text-neutral-content">
@@ -639,15 +639,15 @@
             <div class="py-5" >
                 <div class="flex items-center gap-3  py-4 justify-center">
                     <img src="./images/logo.png" alt="">
-                    <h1 class="text-4xl font-xl text-center">Fruit Burst</h1>
+                    <h1 class="text-4xl font-xl text-center">Fruit Brust</h1>
                 </div>
                 <div class=" flex flex-wrap items-center justify-center gap-10 md:gap-14 lg:gap-24">
-                    <a href="" class="text-lg">Home</a>
-                    <a href="" class="text-lg">About Us</a>
-                    <a href="" class="text-lg">Shop</a>
-                    <a href="" class="text-lg">All Fruit</a>
-                    <a href="" class="text-lg">Support</a>
-                    <a href="" class="text-lg">Account</a>
+                    <a href="#home"     class="text-lg">Home</a>
+                    <a href="#aboutus"  class="text-lg">About Us</a>
+                    <a href="#purchase" class="text-lg">Shop</a>
+                    <a href="#fruits"   class="text-lg">All Fruit</a>
+                    <a href=""          class="text-lg">Support</a>
+                    <a href=""          class="text-lg">Account</a>
                 </div>
                 
             </div> 
